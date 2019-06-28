@@ -1,0 +1,8 @@
+.navlink {
+  background: #324518;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: $m-size 0;
+  border-bottom: 0.6rem solid darken(#324518, 10%);
+}
