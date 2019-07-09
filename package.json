@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "lite-server",
+    "test": "jest",
     "build": "webpack",
     "dev-server": "webpack-dev-server"
   },
@@ -15,6 +16,7 @@
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
+    "jest": "^20.0.4",
     "lite-server": "^2.5.3",
     "moment": "^2.18.1",
     "python2": "0.0.1",
