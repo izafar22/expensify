@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "lite-server",
     "test": "jest",
     "build:prod": "webpack -p --env production",
     "build:dev": "webpack",
@@ -21,8 +20,6 @@
     "babel-preset-react": "^6.24.1",
     "express": "^4.15.4",
     "extract-text-webpack-plugin": "^3.0.0",
-    "jest": "^20.0.4",
-    "lite-server": "^2.5.3",
     "moment": "^2.18.1",
     "python2": "0.0.1",
     "react": "^16.0.0",
@@ -37,7 +34,6 @@
     "uuid": "^3.1.0",
     "validator": "^8.0.0",
     "webpack": "^3.1.0",
-    "webpack-dev-server": "^2.5.1",
     "yarn": "^1.16.0"
   },
   "devDependencies": {
@@ -45,7 +41,9 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "css-loader": "^0.28.4",
     "node-sass": "^4.10.0",
+    "jest": "^20.0.4",
     "normalize.css": "^8.0.1",
-    "style-loader": "^0.18.2"
+    "style-loader": "^0.18.2",
+    "webpack-dev-server": "^2.5.1"
   }
 }
