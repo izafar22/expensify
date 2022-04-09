@@ -20,7 +20,7 @@
     "babel-preset-react": "^6.24.1",
     "express": "^4.15.4",
     "extract-text-webpack-plugin": "^3.0.0",
-    "moment": "^2.18.1",
+    "moment": "^2.29.2",
     "numeral": "^2.0.6",
     "python2": "0.0.1",
     "react": "^16.0.0",
